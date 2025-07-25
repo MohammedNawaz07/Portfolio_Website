@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohammed Nawaz - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader"><div></div></div>
+
+  <!-- Header -->
+  <header>
+    <nav class="right-nav" id="rightNav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="resume-btn" onclick="downloadResume()">Resume</button></li>
+        <li><button id="dark-toggle">🌙</button></li>
+      </ul>
+    </nav>
+
+    <div class="header-content" data-aos="fade-up">
+      <img src="profile.jpg" alt="Mohammed Nawaz" class="profile-img" />
+      <div class="intro-text">
+        <h1><span id="typing-text"></span><span class="cursor">|</span></h1>
+        <p>Software Engineer | Fresher | Passionate Coder</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" class="section" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        I'm Mohammed Nawaz, a highly motivated Computer Science Engineering graduate with a strong foundation in software development, problem-solving, and modern web technologies. As a passionate coder, I enjoy exploring new tools, contributing to open-source projects, and developing scalable, user-centric applications. I have hands-on experience with front-end and back-end stacks including JavaScript, React.js, Node.js, Express, and MongoDB.
+      </p>
+      <p>
+        In addition to my technical interests, I have held leadership positions, including Student President of my department, where I honed skills in team management, event planning, and communication. I'm now seeking opportunities to apply my knowledge in real-world challenges, contribute to innovative teams, and grow as a full-stack developer.
+      </p>
+    </section>
+
+    <section id="projects" class="section" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>Privacy Preserving Similarity Search System</h3>
+          <p>A Privacy-Preserving Similarity Search System leverages Homomorphic Encryption and VP-Trees to securely perform similarity queries on encrypted data without exposing sensitive information.</p>
+          <a href="https://github.com/mohammednawaz07">GitHub Repo</a>
+        </div>
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>A Weather Forecasting Web Application that displays real-time temperature, humidity, and weather conditions using API-based data. Built using HTML, CSS, JavaScript frontend languages to make it user-friendly.</p>
+          <a href="https://github.com/mohammednawaz07">GitHub Repo</a>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A Portfolio Website that showcases my academic excellence, technical skills, and development projects in a professional format. Built using HTML, CSS, and JavaScript for simplicity and professionalism.</p>
+          <a href="https://github.com/mohammednawaz07">GitHub Repo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="academics" class="section" data-aos="fade-up">
+      <h2>Academic Excellence</h2>
+      <ul>
+        <li><strong>B.E in Computer Science and Engineering (IoT, Cybersecurity including Blockchain Technology)</strong> - YENEPOYA INSTITUTE OF TECHNOLOGY (2022–2026) - CGPA: 8.6/10</li>
+        <li>Participated in college level coding hackathons and tech events</li>
+        <li>Certified in Java, Python, PHP & SQL (IITB), MERN Stack, Agile Scrum (Simplilearn)</li>
+        <li>Elected as the President Of Departmental Student Association (2024)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:mohammednawaz0702@gmail.com">mohammednawaz0702@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/nawaz0702" target="_blank">nawaz0702</a></p>
+      <p>GitHub: <a href="https://github.com/mohammednawaz07" target="_blank">mohammednawaz07</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mohammed Nawaz. All rights reserved.</p>
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
